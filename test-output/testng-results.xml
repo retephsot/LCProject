@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="201652" started-at="2016-05-18T12:23:18Z" finished-at="2016-05-18T12:26:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="201652" started-at="2016-05-18T12:23:18Z" finished-at="2016-05-18T12:26:39Z">
+      <class name="com.test1.tests.AddNotesToCase">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforSuite" is-config="true" duration-ms="10" started-at="2016-05-18T08:23:18Z" finished-at="2016-05-18T08:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="7295" started-at="2016-05-18T08:23:19Z" finished-at="2016-05-18T08:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSuccessfulNotesAdd(java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="testSuccessfulNotesAdd" duration-ms="58170" started-at="2016-05-18T08:23:26Z" data-provider="dataProvider" finished-at="2016-05-18T08:24:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AP1TypeR12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[God Hand Joshima's]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulNotesAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1562" started-at="2016-05-18T08:24:24Z" finished-at="2016-05-18T08:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="6558" started-at="2016-05-18T08:24:26Z" finished-at="2016-05-18T08:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSuccessfulNotesAdd(java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="testSuccessfulNotesAdd" duration-ms="57721" started-at="2016-05-18T08:24:32Z" data-provider="dataProvider" finished-at="2016-05-18T08:25:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FC3S13BT12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ryosuke's Turbo II Infini with TD06 20G]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulNotesAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1419" started-at="2016-05-18T08:25:30Z" finished-at="2016-05-18T08:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="5939" started-at="2016-05-18T08:25:31Z" finished-at="2016-05-18T08:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSuccessfulNotesAdd(java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="testSuccessfulNotesAdd" duration-ms="60487" started-at="2016-05-18T08:25:37Z" data-provider="dataProvider" finished-at="2016-05-18T08:26:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NA6CTypeR12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hiro's NSX Type R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulNotesAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1492" started-at="2016-05-18T08:26:38Z" finished-at="2016-05-18T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test1.tests.AddNotesToCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

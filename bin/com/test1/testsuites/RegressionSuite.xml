@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionSuite">
+	<test name= "LibertySettlementRegressionTest" > <!--  You can have multiple test nodes in a suite -->
+		<classes>
+			<class name="com.test1.tests.RTest" /> <!--  You can have multiple class nodes in a test -->
+			<class name="com.test1.tests.AttachDocumentToCase" />
+		</classes>
+	</test>
+		<test name= "LibertySettlementRegressionTest2" > <!--  You can have multiple test nodes in a suite -->
+		<classes>
+			<class name="com.test1.tests.AttachDocumentToCase" /> <!--  You can have multiple class nodes in a test -->		
+		</classes>
+	</test>
+</suite>			

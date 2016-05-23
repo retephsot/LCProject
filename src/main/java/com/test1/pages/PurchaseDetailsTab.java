@@ -182,13 +182,6 @@ public class PurchaseDetailsTab extends PageBase
 		
 		int currentMonthNew = Integer.parseInt(currentMonth);
 		
-		//System.out.println("The value of currentMonthNew is: " + currentMonthNew);
-		
-		//Thread.sleep(1000);		
-		
-		//System.out.println("The value of monthNew is: " + monthNew);
-		
-		//Thread.sleep(1000);
 		
 		if (monthNew < currentMonthNew)
 		{
@@ -289,8 +282,6 @@ public class PurchaseDetailsTab extends PageBase
 		
 		Thread.sleep(2000);
 		
-		//String Claimant = annuFirstName + " " + annuLastName;		
-		//System.out.println("The Claimant name is: " + Claimant);
 				
 		String retreiveRole = table.getRowElement(date).getText();
 		

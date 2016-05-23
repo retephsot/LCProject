@@ -46,13 +46,7 @@ public class TestBase
 	@BeforeMethod
 	  public void beforeMethod() 
 	  {
-		//the below 4 lines were copied from the JavaProperties file - need to make Properties testConfig Member variable
-		//Properties testConfig = new Properties();
-		//testConfig.load(new FileInputStream("TestConfig.properties"));
-		
-		//System.out.println(testConfig.getProperty("browser"));
-		
-		//System.out.println(testConfig.getProperty("baseUrl"));
+	
 		
 		//the below 3 are handled by the WebDriverHelper
 		

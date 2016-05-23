@@ -23,34 +23,7 @@ import org.testng.annotations.AfterMethod;
 public class RTest extends TestBase
 
 {
-	//the below are inherited from TestBase class
-//	private WebDriver driver;
 
-
-	//BeforeMethod is not inherited from TestBase class
-//  @BeforeMethod
-//  public void beforeMethod() 
-//  {
-//	//To launch on google Chrome
-//		System.setProperty("webdriver.chrome.driver",
-//		"C:\\seleniumJar\\chromedriver_win32\\chromedriver.exe");
-//					
-//		driver = new ChromeDriver();
-//		  
-//		baseUrl = "http://www.powercontrol.net:81/login";
-//		
-//				
-//		//Set implicityWait time to 45 seconds
-//		driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
-//		
-//		//Enlarge the application screen
-//		Toolkit toolkit = Toolkit.getDefaultToolkit();
-//		int Width = (int) toolkit.getScreenSize().getWidth();
-//		int Height = (int)toolkit.getScreenSize().getHeight();
-//		driver.manage().window().setSize(new Dimension(1600,1300));
-//		
-//		driver.get(baseUrl);
-//  }
 
   @Test (dataProvider = "dataProvider")
   public void testSuccessfulAddNewCase(String casenumber, String annuFirstName, String annuLastName) 

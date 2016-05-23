@@ -30,8 +30,6 @@ public class AnnuityDetailsTab extends PageBase
 	}
 	
 	
-	
-	
 	public AnnuityDetailsTab CreateLumpsumPaymentLifeCon(String amount, String month, String year, String day) throws InterruptedException
 	{
 		//to remove trailing zeros
@@ -190,11 +188,10 @@ public class AnnuityDetailsTab extends PageBase
 		
 		//System.out.println("The value of currentMonthNew is: " + currentMonthNew);
 		
-		//Thread.sleep(1000);		
 		
 		//System.out.println("The value of monthNew is: " + monthNew);
 		
-		//Thread.sleep(1000);
+
 		
 		if (monthNew < currentMonthNew)
 		{

@@ -31,18 +31,7 @@ public class TestBase
 	//need to make Properties testConfig member variable below like this
 	protected Properties testConfig;
 	public String baseUrl;
-//	public String username;
-//	public String password;
-//	public String newpassword;
-//	public String email;
-//	public String firstname;
-//	public String lastname;
-//	public String RunGroup;
-//	public String UtilityCompany1;
-//	public String LMduration;
-//	public String LMnotes;
-//	public String LoadMgmtByUtil;
-//	public String LoadMgmtByRunGroup;
+
 	
 	
 	
@@ -78,12 +67,7 @@ public class TestBase
 		
 		// the below baseUrl value is coming from the Java PropertiesFile
 		baseUrl = testConfig.getProperty("baseUrl");
-//		username = "Jason.lee@soltech.net";
-//		password = "Password1";	
-//		newpassword = "Password2";
-//		email = "synhlee@yahoo.com";
-//		firstname = "Roger";
-//		lastname = "Moore";
+
 				
 //    the implicit wait and screen enlargement are taken care of in Java PropertiesFile		
 //		//Set implicityWait time to 45 seconds

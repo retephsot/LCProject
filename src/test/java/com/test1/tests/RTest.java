@@ -71,7 +71,7 @@ public class RTest extends TestBase
 	 
   }
   
-  @Test (dataProvider = "dataProvider")
+  @Test (priority=2, dataProvider = "dataProvider")
   public void testSuccessfulAddNewPriorDealCase(String casenumber, String annuFirstName, String annuLastName) 
 				  throws InterruptedException, IOException 
   {
@@ -93,7 +93,7 @@ public class RTest extends TestBase
 	 
   }
 
-  @Test (dataProvider = "dataProvider")
+  @Test (priority=3, dataProvider = "dataProvider")
   public void testSuccessfulCaseSummaryInfo(String casenumber, String state, String county, String instructions,
 		  String researchstat, String month, String day, String year, String annuFirstName, String annuLastName) 
 				  throws InterruptedException, IOException 
@@ -118,7 +118,7 @@ public class RTest extends TestBase
   
  
 
-  @Test (dataProvider = "dataProvider")
+  @Test (priority=4, dataProvider = "dataProvider")
   public void testSuccessfulCreateNewClaimant(String casenumber, String state, String county, String annuFirstName, 
 		  String annuLastName, String ssN, String gender, String mStatus, String bMonth, String bDay, String bYear) 
 				  throws InterruptedException, IOException 
@@ -152,7 +152,7 @@ public class RTest extends TestBase
   
   
   
-  @Test (dataProvider = "dataProvider")
+  @Test (priority=5, dataProvider = "dataProvider")
   public void testSuccessfulLumpsumPayAddLC(String casenumber, String day, String month, String year,
 		  String amount) throws InterruptedException, IOException 
   {
@@ -182,7 +182,7 @@ public class RTest extends TestBase
   
   
   
-  @Test (dataProvider = "dataProvider")
+  @Test (priority=6, dataProvider = "dataProvider")
   public void testSuccessfulDocAttachment(String casenumber, String title, String type,
 		  String attachmentname) throws InterruptedException, IOException 
   {
@@ -209,7 +209,7 @@ public class RTest extends TestBase
 	 
   }
   
-  @Test (dataProvider = "dataProvider")
+  @Test (priority=7, dataProvider = "dataProvider")
   public void testSuccessfulNotesAdd(String casenumber, String notes)throws InterruptedException, IOException
   {
 
@@ -244,6 +244,33 @@ public class RTest extends TestBase
 	 
   }
   
+  
+  @Test (priority=8, dataProvider = "dataProvider")
+  public void testSuccessfulPurchaseLumpsumPayAdd(String casenumber, String day, String month, String year,
+		  String amount) throws InterruptedException, IOException 
+  {
+
+	
+	//The entry point DefaultLandingPage object below can now be removed because its added to TestBase can now inherit this
+    //DefaultLandingPage defaultlandingpage = new DefaultLandingPage(driver);
+	  
+	boolean testResult = defaultlandingpage.ClickResearchCasesLink()
+										   .clickCaseNumbertLink(casenumber)
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .CreateLumpsumPaymentLifeCon(amount, month, year, day)
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .CreateLumpsumPaymentLifeCon(amount, month, year, day)
+			 						       .isAddPurchaseLumpsumPaymentSuccessful(amount, year, day, month); 
+  
+	 System.out.println(testResult);
+	 
+	 Thread.sleep(2000);
+	 
+	 Assert.assertTrue(testResult, "Purchase payment has not been successfully created for : " + casenumber);
+	 
+  }
 
 
 }

@@ -30,64 +30,7 @@ public class AnnuityDetailsTab extends PageBase
 	}
 	
 	
-	public AnnuityDetailsTab CreateLumpsumPaymentPrevMonthLifeCon(String amount, String year, String day) throws InterruptedException
-	{
-		
-		day = day.replaceAll("([0-9])\\.0+([^0-9]|$)", "$1$2");
-		year = year.replaceAll("([0-9])\\.0+([^0-9]|$)", "$1$2");
-		
-		//Find Add Payment button and click
-		driver.findElement(By.partialLinkText("Add Payment")).click();
-		
-		Thread.sleep(2000);
-		
-		//Select payment type - click on type field
-		driver.findElement(By.id("annuityPaymentType")).click();
-		Thread.sleep(1000);
-		//Select lumpsum
-		driver.findElement(By.xpath("//*[@id='annuityPaymentType']/option[2]")).click();
-		
-		//Enter amount into amount field
-		Thread.sleep(1000);
-		driver.findElement(By.xpath("//*[@id='annuityPaymentAmount']")).sendKeys(amount);
-		
-		//Find the Start Date field and click
-		Thread.sleep(1000);
-		driver.findElement(By.id("annuityPaymentStartDate")).click();
-		
-		Thread.sleep(2000);
-		
-    	//Select year
-    	driver.findElement(By.xpath("//*[@id='startDateAnnuitant']/div/div[1]/div[2]/a/span")).click();
-    	Thread.sleep(1000);
-    	driver.findElement(By.partialLinkText(year)).click();
-    	Thread.sleep(1000);
-    	//Select the month previous or next
-    	//previous
-    	driver.findElement(By.xpath("//*[@id='startDateAnnuitant']/div/div[1]/div[1]/a/b")).click();
-//    	Thread.sleep(2000);
-//    	driver.findElement(By.xpath("//*[@id='startDateAnnuitant']/div/div[1]/div[1]/a/b")).click();
-    	
-    	//next month
-//    	driver.findElement(By.xpath("//*[@id='startDateAnnuitant']/div/div[1]/div[3]/a/b")).click();
-//    	Thread.sleep(2000);
-//    	driver.findElement(By.xpath("//*[@id='startDateAnnuitant']/div/div[1]/div[3]/a/b")).click();
-    	
-    	//Select the day
-    	Thread.sleep(2000);	
-    	driver.findElement(By.linkText(day)).click();
-    	Thread.sleep(2000);
-    	
-    	//Select Life Contingent
-    	driver.findElement(By.name("life-contingent")).click();
-    	Thread.sleep(1000);
-    	//Select Save & Continue button
-    	driver.findElement(By.linkText("Save & Continue")).click();
-			
-    	Thread.sleep(2000);
-		return new AnnuityDetailsTab(driver);
-		
-	}
+	
 	
 	public AnnuityDetailsTab CreateLumpsumPaymentLifeCon(String amount, String month, String year, String day) throws InterruptedException
 	{

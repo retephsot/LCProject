@@ -1,89 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="201652" started-at="2016-05-18T12:23:18Z" finished-at="2016-05-18T12:26:39Z">
+  <suite name="Default suite" duration-ms="372635" started-at="2016-05-23T13:39:57Z" finished-at="2016-05-23T13:46:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="201652" started-at="2016-05-18T12:23:18Z" finished-at="2016-05-18T12:26:39Z">
-      <class name="com.test1.tests.AddNotesToCase">
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforSuite" is-config="true" duration-ms="10" started-at="2016-05-18T08:23:18Z" finished-at="2016-05-18T08:23:18Z">
+    <test name="Default test" duration-ms="372635" started-at="2016-05-23T13:39:57Z" finished-at="2016-05-23T13:46:10Z">
+      <class name="com.test1.tests.AddPurchaseLumpsumPaymentLC">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="beforSuite" is-config="true" duration-ms="16" started-at="2016-05-23T09:39:57Z" finished-at="2016-05-23T09:39:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="7295" started-at="2016-05-18T08:23:19Z" finished-at="2016-05-18T08:23:26Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="7122" started-at="2016-05-23T09:39:58Z" finished-at="2016-05-23T09:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulNotesAdd(java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="testSuccessfulNotesAdd" duration-ms="58170" started-at="2016-05-18T08:23:26Z" data-provider="dataProvider" finished-at="2016-05-18T08:24:24Z">
+        <test-method status="PASS" signature="testSuccessfulPurchaseLumpsumPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="testSuccessfulPurchaseLumpsumPayAdd" duration-ms="104503" started-at="2016-05-23T09:40:05Z" data-provider="dataProvider" finished-at="2016-05-23T09:41:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[AP1TypeR12]]>
+                <![CDATA[MassiveB123]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[God Hand Joshima's]]>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[250]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulNotesAdd -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1562" started-at="2016-05-18T08:24:24Z" finished-at="2016-05-18T08:24:26Z">
+        </test-method> <!-- testSuccessfulPurchaseLumpsumPayAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1550" started-at="2016-05-23T09:41:50Z" finished-at="2016-05-23T09:41:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="6558" started-at="2016-05-18T08:24:26Z" finished-at="2016-05-18T08:24:32Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="6044" started-at="2016-05-23T09:41:52Z" finished-at="2016-05-23T09:41:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulNotesAdd(java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="testSuccessfulNotesAdd" duration-ms="57721" started-at="2016-05-18T08:24:32Z" data-provider="dataProvider" finished-at="2016-05-18T08:25:30Z">
+        <test-method status="FAIL" signature="testSuccessfulPurchaseLumpsumPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="testSuccessfulPurchaseLumpsumPayAdd" duration-ms="117215" started-at="2016-05-23T09:41:58Z" data-provider="dataProvider" finished-at="2016-05-23T09:43:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FC3S13BT12]]>
+                <![CDATA[GAD1111]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Ryosuke's Turbo II Infini with TD06 20G]]>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[100]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"tbody/tr[contains(.,'05/20/2016')]"}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'E5530-2340', ip: '10.0.0.73', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jslee\AppData\Local\Temp\scoped_dir4032_15775}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1352f1c5d8602be4b560a8f4a832c2b1
+*** Element info: {Using=xpath, value=tbody/tr[contains(.,'05/20/2016')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"tbody/tr[contains(.,'05/20/2016')]"}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'E5530-2340', ip: '10.0.0.73', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jslee\AppData\Local\Temp\scoped_dir4032_15775}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1352f1c5d8602be4b560a8f4a832c2b1
+*** Element info: {Using=xpath, value=tbody/tr[contains(.,'05/20/2016')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:197)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:294)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:193)
+	at com.test1.pages.WebTable.getRowElement(WebTable.java:116)
+	at com.test1.pages.PurchaseDetailsTab.isAddPurchaseLumpsumPaymentSuccessful(PurchaseDetailsTab.java:281)
+	at com.test1.tests.AddPurchaseLumpsumPaymentLC.testSuccessfulPurchaseLumpsumPayAdd(AddPurchaseLumpsumPaymentLC.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulNotesAdd -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1419" started-at="2016-05-18T08:25:30Z" finished-at="2016-05-18T08:25:31Z">
+        </test-method> <!-- testSuccessfulPurchaseLumpsumPayAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1460" started-at="2016-05-23T09:43:55Z" finished-at="2016-05-23T09:43:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="5939" started-at="2016-05-18T08:25:31Z" finished-at="2016-05-18T08:25:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="6505" started-at="2016-05-23T09:43:56Z" finished-at="2016-05-23T09:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulNotesAdd(java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="testSuccessfulNotesAdd" duration-ms="60487" started-at="2016-05-18T08:25:37Z" data-provider="dataProvider" finished-at="2016-05-18T08:26:38Z">
+        <test-method status="FAIL" signature="testSuccessfulPurchaseLumpsumPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="testSuccessfulPurchaseLumpsumPayAdd" duration-ms="125737" started-at="2016-05-23T09:44:03Z" data-provider="dataProvider" finished-at="2016-05-23T09:46:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[NA6CTypeR12]]>
+                <![CDATA[180sxRB25DET12]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hiro's NSX Type R]]>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[03]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"tbody/tr[contains(.,'03/25/2016')]"}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'E5530-2340', ip: '10.0.0.73', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jslee\AppData\Local\Temp\scoped_dir3648_22028}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 74ee428b5a25817dd2c3256d1d8b4a75
+*** Element info: {Using=xpath, value=tbody/tr[contains(.,'03/25/2016')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"tbody/tr[contains(.,'03/25/2016')]"}
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'E5530-2340', ip: '10.0.0.73', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jslee\AppData\Local\Temp\scoped_dir3648_22028}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=50.0.2661.102, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 74ee428b5a25817dd2c3256d1d8b4a75
+*** Element info: {Using=xpath, value=tbody/tr[contains(.,'03/25/2016')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:197)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:294)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:193)
+	at com.test1.pages.WebTable.getRowElement(WebTable.java:116)
+	at com.test1.pages.PurchaseDetailsTab.isAddPurchaseLumpsumPaymentSuccessful(PurchaseDetailsTab.java:281)
+	at com.test1.tests.AddPurchaseLumpsumPaymentLC.testSuccessfulPurchaseLumpsumPayAdd(AddPurchaseLumpsumPaymentLC.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulNotesAdd -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNotesToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1492" started-at="2016-05-18T08:26:38Z" finished-at="2016-05-18T08:26:39Z">
+        </test-method> <!-- testSuccessfulPurchaseLumpsumPayAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddPurchaseLumpsumPaymentLC@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1450" started-at="2016-05-23T09:46:09Z" finished-at="2016-05-23T09:46:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.test1.tests.AddNotesToCase -->
+      </class> <!-- com.test1.tests.AddPurchaseLumpsumPaymentLC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

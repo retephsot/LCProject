@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test1.tests.AddPurchaseLumpsumPaymentLC">
+      <class name="com.test1.tests.AddAnnuityPeriodicPayment">
         <methods>
-          <include name="testSuccessfulPurchaseLumpsumPayAdd" invocation-numbers="1 2"/>
           <include name="beforSuite"/>
           <include name="afterMethod"/>
+          <include name="testSuccessfulMonthlyAnnuityPeriodicPayAdd" invocation-numbers="0 1"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.test1.tests.AddPurchaseLumpsumPaymentLC -->
+      </class> <!-- com.test1.tests.AddAnnuityPeriodicPayment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

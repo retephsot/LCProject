@@ -50,7 +50,7 @@ public class AddNotesToCase extends TestBase
 										   .ClickContinueLinkwithOutFillingOut()
 										   .ClickContinueLinkwithOutFillingOut()
 										   .ClickContinueToNotes()
-										   .isAddNotesSuccessful(notes); 
+										   .isAddNotesSuccessful(notes, casenumber); 
   
 	 System.out.println(testResult);
 	 

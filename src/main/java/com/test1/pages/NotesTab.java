@@ -67,8 +67,11 @@ public class NotesTab extends PageBase
 		
 	}
 	
-	public boolean isAddNotesSuccessful(String notes) throws InterruptedException
+	public boolean isAddNotesSuccessful(String notes, String casenumber) throws InterruptedException
 	{
+		
+		boolean testresults;
+		
 		// refresh the page
 		//driver.navigate().refresh();
 				
@@ -80,6 +83,9 @@ public class NotesTab extends PageBase
 				
 		//Thread.sleep(3000);
 		
+		if (driver.findElement(By.xpath("//*[@id='page-container']/div/div/div[2]/div[7]/"
+				+ "div/div/div[2]/ul/li/div[2]/p")).isDisplayed())
+		{
 		String noteValue = driver.findElement(By.xpath("//*[@id='page-container']/div/div/div[2]/div[7]/"
 				+ "div/div/div[2]/ul/li/div[2]/p")).getText();
 		
@@ -89,7 +95,7 @@ public class NotesTab extends PageBase
 		Thread.sleep(1000);
 		
 		
-		boolean testresults;
+		
 		
 		testresults = noteValue.contains(notes);
 		
@@ -99,6 +105,17 @@ public class NotesTab extends PageBase
 		Thread.sleep(1000);	
 		
 		return testresults;
+		}
+		
+		else
+		{
+			
+			System.out.println("Notes has not been added for case number :" + casenumber);
+			
+			testresults = false;
+			return testresults;
+			
+		}
 		
 	}
 	

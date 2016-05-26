@@ -770,82 +770,10 @@ public class PurchaseDetailsTab extends PageBase
 			
 		}
 			
-		//Search for payment table
-//		WebTable table = new WebTable(driver.findElement(By.xpath("//*[@id='page-container']/div/div/div[2]/div[5]/"
-//				+ "div/div/div/div[2]/div[2]/div/div[6]/div/div[1]/div/table")));
-//				
-//		Thread.sleep(2000);
-//		
-		
-		//Print out all webtable values
-//		System.out.println("");
-//		System.out.println("==== getTextDisplayedInAllRows ====");
-//		String[][] tableText = table.getTextDisplayedInAllRows();
-//		for(String[] row:tableText)
-//		{
-//			for(String cell:row)
-//			{
-//				System.out.print(cell+"   ");
-//			}
-//			System.out.println("");
-//		}
-		
-		//Thread.sleep(3000);
-		
-//		System.out.println("getRowElement for last pay date: " + 
-//				table.getRowElement(lastdate).getText());
-//		
-//		Thread.sleep(2000);
-//		
-		//String Claimant = annuFirstName + " " + annuLastName;		
-		//System.out.println("The Claimant name is: " + Claimant);
+
 		
 		
-		
-//		Thread.sleep(2000);
-//		
-//		testresults = table.getRowElement(lastdate).isDisplayed();
-//		
-//		System.out.println("The results of the test is :" + testresults);
-		
-		//can change the test method below once liberty build is fixed
-				
-//		String retreiveRole = table.getRowElement(lastdate).getText();
-//		
-//		Thread.sleep(1000);
-//		
-//		//System.out.println("The value for amount is: " + amount);
-//		
-//       
-//		Thread.sleep(1000);
-//		
-//		int amount2 = Integer.parseInt(amount);
-//		
-//		String amount3 = String.format("%,d", amount2);
-//		
-//		//DecimalFormat formatter = new DecimalFormat("#,###,###");	        
-//	    //String amount2 = formatter.format(amount);
-//			
-//	    Thread.sleep(1000);
-//	    System.out.println("The value for amount is: " + amount3);
-//		Thread.sleep(1000);
-//		expectedval = lastdate + " " +  frq + " " + "$" + amount3;
-//		
-//		Thread.sleep(1000);
-//		System.out.println("The expected value is :" + expectedval);
-//		
-//		Thread.sleep(1000);
-//		
-//		boolean testresults;
-//		
-//		testresults = retreiveRole.contains(expectedval);
-//		
-//		System.out.println(testresults);
-//		
-//		
-//		Thread.sleep(1000);	
-		
-//		return testresults;
+
 		
 	}		
 	

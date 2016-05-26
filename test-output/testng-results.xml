@@ -1,74 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="148103" started-at="2016-05-24T18:05:24Z" finished-at="2016-05-24T18:07:52Z">
+  <suite name="Default suite" duration-ms="242963" started-at="2016-05-26T01:39:05Z" finished-at="2016-05-26T01:43:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="148103" started-at="2016-05-24T18:05:24Z" finished-at="2016-05-24T18:07:52Z">
-      <class name="com.test1.tests.AddAnnuityPeriodicPayment">
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="beforSuite" is-config="true" duration-ms="16" started-at="2016-05-24T14:05:24Z" finished-at="2016-05-24T14:05:24Z">
+    <test name="Default test" duration-ms="242963" started-at="2016-05-26T01:39:05Z" finished-at="2016-05-26T01:43:08Z">
+      <class name="com.test1.tests.AddPurchasePeriodicPaymentLC">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="beforSuite" is-config="true" duration-ms="15" started-at="2016-05-25T21:39:05Z" finished-at="2016-05-25T21:39:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="7186" started-at="2016-05-24T14:05:25Z" finished-at="2016-05-24T14:05:32Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="28030" started-at="2016-05-25T21:39:06Z" finished-at="2016-05-25T21:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulMonthlyAnnuityPeriodicPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="testSuccessfulMonthlyAnnuityPeriodicPayAdd" duration-ms="64843" started-at="2016-05-24T14:05:32Z" data-provider="dataProvider" finished-at="2016-05-24T14:06:37Z">
+        <test-method status="FAIL" signature="testSuccessfulMonthlyPurchasePeriodicPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="testSuccessfulMonthlyPurchasePeriodicPayAdd" duration-ms="89413" started-at="2016-05-25T21:39:34Z" data-provider="dataProvider" finished-at="2016-05-25T21:41:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ANG1234]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[26]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[06]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2016]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[200000]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Monthly]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulMonthlyAnnuityPeriodicPayAdd -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1598" started-at="2016-05-24T14:06:37Z" finished-at="2016-05-24T14:06:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="6820" started-at="2016-05-24T14:06:38Z" finished-at="2016-05-24T14:06:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulMonthlyAnnuityPeriodicPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="testSuccessfulMonthlyAnnuityPeriodicPayAdd" duration-ms="65332" started-at="2016-05-24T14:06:45Z" data-provider="dataProvider" finished-at="2016-05-24T14:07:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TE555]]>
+                <![CDATA[FD3STD06G20]]>
               </value>
             </param>
             <param index="1">
@@ -88,12 +39,12 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[50000]]>
+                <![CDATA[120000]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[12]]>
+                <![CDATA[8.0]]>
               </value>
             </param>
             <param index="6">
@@ -102,14 +53,137 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Periodic purchase payment has not been successfully created for : FD3STD06G20 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Periodic purchase payment has not been successfully created for : FD3STD06G20 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.test1.tests.AddPurchasePeriodicPaymentLC.testSuccessfulMonthlyPurchasePeriodicPayAdd(AddPurchasePeriodicPaymentLC.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulMonthlyAnnuityPeriodicPayAdd -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddAnnuityPeriodicPayment@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1482" started-at="2016-05-24T14:07:50Z" finished-at="2016-05-24T14:07:52Z">
+        </test-method> <!-- testSuccessfulMonthlyPurchasePeriodicPayAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="afterMethod" is-config="true" duration-ms="2107" started-at="2016-05-25T21:41:04Z" finished-at="2016-05-25T21:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.test1.tests.AddAnnuityPeriodicPayment -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="27471" started-at="2016-05-25T21:41:06Z" finished-at="2016-05-25T21:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testSuccessfulMonthlyPurchasePeriodicPayAdd(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="testSuccessfulMonthlyPurchasePeriodicPayAdd" duration-ms="93568" started-at="2016-05-25T21:41:33Z" data-provider="dataProvider" finished-at="2016-05-25T21:43:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TE444]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Periodic purchase payment has not been successfully created for : TE444 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Periodic purchase payment has not been successfully created for : TE444 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.test1.tests.AddPurchasePeriodicPaymentLC.testSuccessfulMonthlyPurchasePeriodicPayAdd(AddPurchasePeriodicPaymentLC.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulMonthlyPurchasePeriodicPayAdd -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AddPurchasePeriodicPaymentLC@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1483" started-at="2016-05-25T21:43:07Z" finished-at="2016-05-25T21:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test1.tests.AddPurchasePeriodicPaymentLC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

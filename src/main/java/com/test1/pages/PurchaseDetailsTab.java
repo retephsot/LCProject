@@ -790,6 +790,10 @@ public class PurchaseDetailsTab extends PageBase
 		{
 			System.out.println("the value of SNumber is :" + SNumber + " Fizz");
 		}
+		else
+		{
+			System.out.println("The value of SNumber is not divisible by 2 or 3.");
+		}
 		return;
 	}
 	

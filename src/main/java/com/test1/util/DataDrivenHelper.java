@@ -6,7 +6,7 @@ public class DataDrivenHelper extends ExcelHelper
 {
 	// Specify test name column
 	// We are using a variable for test name column so that if column changes in future, we just need to change this variable only
-	public final static int testNameColumn =1;
+	public final static int testNameColumn=1;
 	
 	// Specify test data start column
 	// We are using a variable for test data start column so that if column changes in future, we just need to change this variable only

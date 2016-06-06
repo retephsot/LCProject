@@ -38,7 +38,7 @@ public class WebDriverHelper
 		}
 		
 		//Set implicityWait time to 10 seconds
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(14, TimeUnit.SECONDS);
 		
 		//Enlarge the application screen
 //		Toolkit toolkit = Toolkit.getDefaultToolkit();

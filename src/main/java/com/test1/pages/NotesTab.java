@@ -83,8 +83,8 @@ public class NotesTab extends PageBase
 				
 		//Thread.sleep(3000);
 		
-		if (driver.findElement(By.xpath("//*[@id='page-container']/div/div/div[2]/div[7]/"
-				+ "div/div/div[2]/ul/li/div[2]/p")).isDisplayed())
+		if (driver.findElement(By.xpath("//*[@id='page-container']/div/div/div[2]/div[7]/div/div/div"
+				+ "[2]/ul/li/div[1]/span[6]")).isDisplayed())
 		{
 		String noteValue = driver.findElement(By.xpath("//*[@id='page-container']/div/div/div[2]/div[7]/"
 				+ "div/div/div[2]/ul/li/div[2]/p")).getText();

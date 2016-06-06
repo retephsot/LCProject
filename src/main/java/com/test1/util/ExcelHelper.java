@@ -80,7 +80,7 @@ public class ExcelHelper
 		}
 		catch(NullPointerException e)
 		{
-			//Catch Nullpointer exception exception and return blank string when specified cell doesn't exist
+			//Catch Nullpointer exception and return blank string when specified cell doesn't exist
 			return "";
 		}
 		

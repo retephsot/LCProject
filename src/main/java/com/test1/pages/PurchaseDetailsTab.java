@@ -770,15 +770,34 @@ public class PurchaseDetailsTab extends PageBase
 			
 		}
 			
-
-		
-		
-
 		
 	}		
 	
+
+// special assignment ************************************************************************	
+	public void assignment(int SNumber)
+	{
+		if (SNumber % 2 == 0 && SNumber % 3 == 0)
+		{	
+		System.out.println("this is the value of the SNumber :" + SNumber + " BizzFizz");
+		}
+		else if (SNumber % 2 == 0)
+	     
+		{
+			System.out.println("the value of SNumber is :" + SNumber + " Bizz");
+		}
+		else if (SNumber % 3 == 0)
+		{
+			System.out.println("the value of SNumber is :" + SNumber + " Fizz");
+		}
+		else
+		{
+			System.out.println("The value of SNumber is not divisible by 2 or 3.");
+		}
+		return;
+	}
 	
 	
-	
+		
 	
 }

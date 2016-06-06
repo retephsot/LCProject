@@ -207,7 +207,7 @@ public class RTest extends TestBase
 										   .ClickContinueLinkwithOutFillingOut()
 										   .ClickContinueLinkwithOutFillingOut()
 										   .ClickContinueToNotes()
-										   .isAddNotesSuccessful(notes); 
+										   .isAddNotesSuccessful(notes, casenumber); 
   
 	 System.out.println(testResult);
 	 
@@ -245,5 +245,34 @@ public class RTest extends TestBase
 	 
   }
 
+  
+  @Test (priority=9, dataProvider = "dataProvider")
+  public void testSuccessfulMonthlyPurchasePeriodicPayAdd(String casenumber, String day, String month, String year,
+		  String amount, String paycount, String frequency) throws InterruptedException, IOException 
+  {
+
+	
+	//The entry point DefaultLandingPage object below can now be removed because its added to TestBase can now inherit this
+    //DefaultLandingPage defaultlandingpage = new DefaultLandingPage(driver);
+	  
+	boolean testResult = defaultlandingpage.ClickResearchCasesLink()
+										   .clickCaseNumbertLink(casenumber)
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .ClickContinueLinkwithOutFillingOut()
+			 						       .CreatePeriodicPayment(amount, month, year, day, paycount, frequency)
+			 						       .ClickContinueToPurchDetailsLink()
+			 						       .CreatePeriodicPayment(amount, month, year, day, paycount, frequency)
+			 						       .isAddPeriodicMonthlyPaymentSuccessful(amount, year, day, month, paycount, frequency, casenumber); 
+  
+	 System.out.println(testResult);
+	 
+	 Thread.sleep(2000);
+	 
+	 Assert.assertTrue(testResult, "Periodic purchase payment has not been successfully created for : " + casenumber);
+	 
+  }
+  
+  
 
 }

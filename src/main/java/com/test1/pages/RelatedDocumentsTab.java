@@ -62,7 +62,11 @@ public class RelatedDocumentsTab extends PageBase
 			throws InterruptedException
 	{
 		
+		boolean testresults;
 		
+		if (driver.findElement(By.xpath("//*[@id='page-container']/div/div/"
+				+ "div[2]/div[6]/div/div/div/div[2]/div/div/div[6]/div/div[1]/div/table")).isDisplayed())
+		{		
 		String myMonth;
 		String myDay;
 		String myYear;
@@ -172,7 +176,6 @@ public class RelatedDocumentsTab extends PageBase
 		
 		Thread.sleep(1000);
 		
-		boolean testresults;
 		
 		testresults = retreiveRole.contains(expectedval);
 		
@@ -184,6 +187,17 @@ public class RelatedDocumentsTab extends PageBase
 		Thread.sleep(1000);	
 		
 		return testresults;
+			
+		}
+		
+		else
+		{
+			System.out.println("The document has not been attached and or does "
+					+ "not show in the Related Documents Table for casenumber :" + casenumber);
+			testresults = false;
+			return testresults;	
+		}
+		
 		
 	}	
 	

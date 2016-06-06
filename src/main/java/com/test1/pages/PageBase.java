@@ -29,11 +29,11 @@ public class PageBase
 		Actions action = new Actions(driver);
 		action.moveToElement(ele).build().perform();
 		
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		
 		// after hovering the mouse pointer click on the cases link from the drop down
 	    driver.findElement(By.xpath("//*[@id='page-container']/header/div[2]/ul/li[2]/ul/li[1]/a")).click();
-	    Thread.sleep(1000);
+	    Thread.sleep(3000);
 		return new DefaultLandingPage(driver);
 	}
 	

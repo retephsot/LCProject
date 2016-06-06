@@ -25,6 +25,17 @@ public class AnnuitantDetailTab extends PageBase
 		
 	}
 	
+	public AnnuitantContactInfoTab ClickContinueToAnnuitContactInfoLink() throws InterruptedException
+	{
+		
+		//Find Continue to Annuitant button and click on it
+		driver.findElement(By.partialLinkText("Continue to Annuitant Contact Info")).click();
+		
+		Thread.sleep(1000);	
+		return new AnnuitantContactInfoTab(driver);
+		
+	}
+	
 	
 	public AnnuitantContactInfoTab FillOutAnnuInfoNClickContinue(String ssN, String gender, 
 			String mStatus, String bMonth, String bDay, String bYear) throws InterruptedException
@@ -213,6 +224,8 @@ public class AnnuitantDetailTab extends PageBase
 					throws InterruptedException
 	{
 		
+		boolean testresults;
+		
 		//to remove trailing .0
 		bMonth = bMonth.replaceAll("([0-9])\\.0+([^0-9]|$)", "$1$2");
 		Thread.sleep(1000);
@@ -253,6 +266,9 @@ public class AnnuitantDetailTab extends PageBase
 		Thread.sleep(2000);
 		
 		
+		if (driver.findElement(By.xpath("//*[@id='claimants-table']/div/div"
+				+ "[6]/div/div[1]/div/table")).isDisplayed())
+		{	
 		//Existing Claimant table
 		WebTable table = new WebTable(driver.findElement(By.xpath("//*[@id='claimants-table']/div/div"
 				+ "[6]/div/div[1]/div/table")));
@@ -278,7 +294,6 @@ public class AnnuitantDetailTab extends PageBase
 		
 		String retreiveRole = table.getRowElement(annuFirstName).getText();
 		
-		boolean testresults;
 		
 		testresults = retreiveRole.contains(inputinfo);
 		
@@ -288,6 +303,17 @@ public class AnnuitantDetailTab extends PageBase
 		Thread.sleep(1000);	
 		
 		return testresults;
+		}
+		
+		else
+		{
+			System.out.println("The claimant may not have been created as the claimant "
+					+ "cannot be found or the claimant info may be mismatched.");
+			
+			Thread.sleep(1000);	
+			testresults = false;
+			return testresults;
+		}
 		
 		
 	}

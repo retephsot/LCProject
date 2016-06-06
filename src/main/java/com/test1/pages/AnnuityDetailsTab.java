@@ -309,15 +309,16 @@ public class AnnuityDetailsTab extends PageBase
 		
 		int amount2 = Integer.parseInt(amount);
 		
-		String amount3 = String.format("%,d", amount2);
+		//to add thousand ,
+		//String amount3 = String.format("%,d", amount2);
 		
 		//DecimalFormat formatter = new DecimalFormat("#,###,###");	        
 	    //String amount2 = formatter.format(amount);
 			
 	    Thread.sleep(1000);
-	    System.out.println("The value for amount is: " + amount3);
+	    System.out.println("The value for amount is: " + amount2);
 		Thread.sleep(1000);
-		expectedval = date + " " + "A " + "$" + amount3;
+		expectedval = date + " " + "A " + "$" + amount2;
 		
 		Thread.sleep(1000);
 		System.out.println("The expected value is :" + expectedval);

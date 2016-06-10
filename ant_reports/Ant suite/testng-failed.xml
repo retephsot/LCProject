@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ant suite]">
+  <test name="Ant test(failed)">
+    <classes>
+      <class name="com.test1.tests.RTest">
+        <methods>
+          <include name="testSuccessfulNotesAdd"/>
+          <include name="testSuccessfulCreateNewClaimant"/>
+          <include name="testSuccessfulDocAttachment"/>
+          <include name="beforSuite"/>
+          <include name="afterMethod"/>
+          <include name="testSuccessfulPurchaseLumpsumPayAdd"/>
+          <include name="testSuccessfulLumpsumPayAddLC"/>
+          <include name="testSuccessfulCaseSummaryInfo" invocation-numbers="11"/>
+          <include name="beforeMethod"/>
+          <include name="testSuccessfulAddNewPriorDealCase" invocation-numbers="5"/>
+          <include name="testSuccessfulMonthlyPurchasePeriodicPayAdd"/>
+        </methods>
+      </class> <!-- com.test1.tests.RTest -->
+    </classes>
+  </test> <!-- Ant test(failed) -->
+</suite> <!-- Failed suite [Ant suite] -->

@@ -37,22 +37,15 @@ public class WebDriverHelper
 			throw new InvalidParameterException(browser + "- is not a valid web browser for web driver.");
 		}
 		
-		//Set implicityWait time to 10 seconds
-		driver.manage().timeouts().implicitlyWait(14, TimeUnit.SECONDS);
+		//Set implicityWait time to 13 seconds
+		driver.manage().timeouts().implicitlyWait(13, TimeUnit.SECONDS);
 		
-		//Enlarge the application screen
-//		Toolkit toolkit = Toolkit.getDefaultToolkit();
-//		int Width = (int) toolkit.getScreenSize().getWidth();
-//		int Height = (int)toolkit.getScreenSize().getHeight();
-//		driver.manage().window().setSize(new Dimension(1500,1600));
 		
 		//full screen
 		driver.manage().window().maximize();
 		
 		return driver;
-		
-		//add any new driver methods here
-		
+			
 	}
 	
 	public static void quitDriver(WebDriver driver)

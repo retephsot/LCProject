@@ -9,8 +9,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-// Reusable Excel Helper Class to work with and read/write from excel files
-// Base class for all other helper class that use excel
+
 
 public class ExcelHelper 
 {
@@ -166,6 +165,4 @@ public class ExcelHelper
 	}
 	
 	
-	
-
 }

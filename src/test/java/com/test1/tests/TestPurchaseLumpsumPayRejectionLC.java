@@ -24,12 +24,10 @@ public class TestPurchaseLumpsumPayRejectionLC extends TestBase
 
 {
 	
-
   @Test (dataProvider = "dataProvider")
   public void testSuccessfulPurchaseLumpsumPayRejectionLC(String casenumber, String day, String month, String year,
 		  String amount) throws InterruptedException, IOException 
   {
-
 	
 	//The entry point DefaultLandingPage object below can now be removed because its added to TestBase can now inherit this
     //DefaultLandingPage defaultlandingpage = new DefaultLandingPage(driver);
@@ -51,13 +49,10 @@ public class TestPurchaseLumpsumPayRejectionLC extends TestBase
 	 
   }
   
- 
-
-  //AfterMethod is not inherited from TestBase class
+  //AfterMethod is now inherited from TestBase class
 //  @AfterMethod
 //  public void afterMethod() 
 //  {
 //	  driver.close();
 //  }
-
 }

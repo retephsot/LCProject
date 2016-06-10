@@ -17,27 +17,27 @@ public class DataDrivenHelper extends ExcelHelper
 		super(filePath);
 	}
 	
-	// Returns 2 dimensional object array representing test data sets when sheet and test names provided
+	// Returns 2 dimensional object array representing test data sets when sheet and test names are provided
 	public Object[][] getTestCaseDataSets(String sheetName, String testName)
 	{
 		// Get test case row number and test data start row number
 		int testRowNumber = getRowNumber(sheetName, testNameColumn, testName);
 		int testDataStartRow = testRowNumber +1;
 		
-		// Calculate test data row count
+		// Calculate the test data row count
 		int testDataRows = 0;
 		for(int i=testDataStartRow; getCellData(sheetName, testNameColumn, i).equals(testName); i++ )
 		{
 			testDataRows++;
 		}
 		
-		// Calculate test data column count
+		// Calculate the test data column count
 		int testDataCols = getCellCount(sheetName, testRowNumber) - testDataStartColumn+1;
 		
-		// Define 2 dimensional object array to hold test data sets
+		// to define a 2 dimensional object array to hold test data sets
 		Object[][] testCaseDataSets = new Object[testDataRows][testDataCols];
 		
-		// Read test data cells from Excel file and assign into Object[][] testCaseDataSets
+		// to read test data cells from Excel file and assign into Object[][] testCaseDataSets
 		for(int i=0;i<testDataRows;i++)
 		{
 			for(int j=0;j<testDataCols;j++)

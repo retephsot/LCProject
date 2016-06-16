@@ -31,9 +31,7 @@ public class TestBase
 	//need to make Properties testConfig member variable below like this
 	protected Properties testConfig;
 	public String baseUrl;
-
-	
-	
+		
 	
 	
 	@BeforeSuite()
@@ -46,7 +44,6 @@ public class TestBase
 	@BeforeMethod
 	  public void beforeMethod() 
 	  {
-	
 		
 		//the below 3 are handled by the WebDriverHelper
 		
@@ -61,7 +58,6 @@ public class TestBase
 		
 		// the below baseUrl value is coming from the Java PropertiesFile
 		baseUrl = testConfig.getProperty("baseUrl");
-
 				
 //    the implicit wait and screen enlargement are taken care of in Java PropertiesFile		
 //		//Set implicityWait time to 45 seconds
@@ -75,9 +71,9 @@ public class TestBase
 		
 		driver.get(baseUrl);
 		
-		//adding the entry point for all test LogInPage logInPage = new LogInPage(driver) so this can be inherited
-		//1 LogInPage logInPage = new LogInPage(driver);
-		//2 now LogInPage can be removed below because this has been added as protected above
+		//adding the entry point for all test DefaultLandingPage defaultlandingpage = new DefaultLandingPage(driver) so this can be inherited
+		//1 DefaultLandingPage defaultlandingpage = new DefaultLandingPage(driver);
+		//2 now DefaultLandingPage can be removed below because this has been added as protected above
 		defaultlandingpage = new DefaultLandingPage(driver);
 				
 	  }
@@ -93,8 +89,7 @@ public class TestBase
 		return testData;
 		
 	  }
-	 
-	 
+	  
 	
 	 @AfterMethod
 	  public void afterMethod() 

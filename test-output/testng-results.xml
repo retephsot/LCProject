@@ -1,21 +1,278 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="8" failed="0" total="8" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="730620" started-at="2016-06-10T11:40:04Z" finished-at="2016-06-10T11:52:15Z">
+  <suite name="Default suite" duration-ms="48338" started-at="2016-06-16T12:02:29Z" finished-at="2016-06-16T12:03:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="730620" started-at="2016-06-10T11:40:04Z" finished-at="2016-06-10T11:52:15Z">
-      <class name="com.test1.tests.AttachDocumentToCase">
-        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforSuite" is-config="true" duration-ms="11" started-at="2016-06-10T07:40:04Z" finished-at="2016-06-10T07:40:04Z">
+    <test name="Default test" duration-ms="48338" started-at="2016-06-16T12:02:29Z" finished-at="2016-06-16T12:03:18Z">
+      <class name="com.test1.tests.AddNewCaseTest">
+        <test-method status="PASS" signature="beforSuite()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforSuite" is-config="true" duration-ms="13" started-at="2016-06-16T08:02:29Z" finished-at="2016-06-16T08:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="13041" started-at="2016-06-10T07:40:05Z" finished-at="2016-06-10T07:40:19Z">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:02:30Z" finished-at="2016-06-16T08:02:30Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+}","syncGUID":"t5lL6C8UTTG5","location":"app-global","version":"46.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1463048427885,"updateDate":1463048427885,"applyBackgroundUpdates":1,"skinnable":true,"size":22012,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0.1","maxVersion":"46.0.1"}],"targetPlatforms":[],"seen":true}
+1466078553188	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1466078553189	DeferredSave.extensions.json	DEBUG	Save changes
+1466078553189	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1466078553189	addons.xpi-utils	DEBUG	Updating add-on states
+1466078553190	addons.xpi-utils	DEBUG	Writing add-ons list
+1466078553193	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1466078553193	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1466078553193	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1466078553194	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1466078553195	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1466078553196	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1466078553216	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1466078553217	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1466078553217	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Starting provider: GMPProvider
+1466078553222	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1466078553223	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1466078553223	addons.manager	DEBUG	Starting provider: PluginProvider
+1466078553223	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1466078553223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1466078553223	addons.manager	DEBUG	Completed startup sequence
+1466078555459	DeferredSave.extensions.json	DEBUG	Starting write
+1466078555465	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1466078555466	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1466078555466	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1466078557251	addons.repository	DEBUG	No addons.json found.
+1466078557251	DeferredSave.addons.json	DEBUG	Save changes
+1466078557253	DeferredSave.addons.json	DEBUG	Starting timer
+1466078557294	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1466078557294	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1466078557294	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1466078557318	DeferredSave.extensions.json	DEBUG	Write succeeded
+1466078557320	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1466078557324	DeferredSave.addons.json	DEBUG	Starting write
+1466078557357	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'E5530-2340', ip: '10.0.0.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+}","syncGUID":"t5lL6C8UTTG5","location":"app-global","version":"46.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1463048427885,"updateDate":1463048427885,"applyBackgroundUpdates":1,"skinnable":true,"size":22012,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0.1","maxVersion":"46.0.1"}],"targetPlatforms":[],"seen":true}
+1466078553188	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1466078553189	DeferredSave.extensions.json	DEBUG	Save changes
+1466078553189	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1466078553189	addons.xpi-utils	DEBUG	Updating add-on states
+1466078553190	addons.xpi-utils	DEBUG	Writing add-ons list
+1466078553193	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1466078553193	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1466078553193	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1466078553194	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1466078553195	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1466078553196	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1466078553216	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1466078553217	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1466078553217	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Starting provider: GMPProvider
+1466078553222	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1466078553223	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1466078553223	addons.manager	DEBUG	Starting provider: PluginProvider
+1466078553223	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1466078553223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1466078553223	addons.manager	DEBUG	Completed startup sequence
+1466078555459	DeferredSave.extensions.json	DEBUG	Starting write
+1466078555465	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1466078555466	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1466078555466	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1466078557251	addons.repository	DEBUG	No addons.json found.
+1466078557251	DeferredSave.addons.json	DEBUG	Save changes
+1466078557253	DeferredSave.addons.json	DEBUG	Starting timer
+1466078557294	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1466078557294	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1466078557294	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1466078557318	DeferredSave.extensions.json	DEBUG	Write succeeded
+1466078557320	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1466078557324	DeferredSave.addons.json	DEBUG	Starting write
+1466078557357	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'E5530-2340', ip: '10.0.0.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:117)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.test1.util.WebDriverHelper.createDriver(WebDriverHelper.java:21)
+	at com.test1.tests.TestBase.beforeMethod(TestBase.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+}","syncGUID":"t5lL6C8UTTG5","location":"app-global","version":"46.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1463048427885,"updateDate":1463048427885,"applyBackgroundUpdates":1,"skinnable":true,"size":22012,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0.1","maxVersion":"46.0.1"}],"targetPlatforms":[],"seen":true}
+1466078553188	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1466078553189	DeferredSave.extensions.json	DEBUG	Save changes
+1466078553189	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1466078553189	addons.xpi-utils	DEBUG	Updating add-on states
+1466078553190	addons.xpi-utils	DEBUG	Writing add-ons list
+1466078553193	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1466078553193	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1466078553193	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1466078553194	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1466078553195	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1466078553196	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1466078553216	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1466078553217	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1466078553217	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1466078553217	addons.manager	DEBUG	Starting provider: GMPProvider
+1466078553222	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1466078553223	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1466078553223	addons.manager	DEBUG	Starting provider: PluginProvider
+1466078553223	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1466078553223	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1466078553223	addons.manager	DEBUG	Completed startup sequence
+1466078555459	DeferredSave.extensions.json	DEBUG	Starting write
+1466078555465	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1466078555466	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1466078555466	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1466078557251	addons.repository	DEBUG	No addons.json found.
+1466078557251	DeferredSave.addons.json	DEBUG	Save changes
+1466078557253	DeferredSave.addons.json	DEBUG	Starting timer
+1466078557294	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1466078557294	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1466078557294	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1466078557318	DeferredSave.extensions.json	DEBUG	Write succeeded
+1466078557320	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1466078557324	DeferredSave.addons.json	DEBUG	Starting write
+1466078557357	DeferredSave.addons.json	DEBUG	Write succeeded
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
+	... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48481" started-at="2016-06-10T07:40:19Z" data-provider="dataProvider" finished-at="2016-06-10T07:41:07Z">
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="1" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTO11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eikichi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Onizuka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="0" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTO12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Urummi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kanzaki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="0" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTO13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Miyabi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aizawa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="0" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
           <params>
             <param index="0">
               <value>
@@ -24,134 +281,23 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[attachment1]]>
+                <![CDATA[Azusa]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[AC]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[godHand4.PNG]]>
+                <![CDATA[Fuyutsuki]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1569" started-at="2016-06-10T07:41:07Z" finished-at="2016-06-10T07:41:09Z">
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="9888" started-at="2016-06-10T07:41:09Z" finished-at="2016-06-10T07:41:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48125" started-at="2016-06-10T07:41:18Z" data-provider="dataProvider" finished-at="2016-06-10T07:42:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO14]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcd2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[BL]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[toshiya3.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1419" started-at="2016-06-10T07:42:07Z" finished-at="2016-06-10T07:42:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="13453" started-at="2016-06-10T07:42:08Z" finished-at="2016-06-10T07:42:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48222" started-at="2016-06-10T07:42:21Z" data-provider="dataProvider" finished-at="2016-06-10T07:43:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO14]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[zzz3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Exhibit]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kiar3.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1467" started-at="2016-06-10T07:43:10Z" finished-at="2016-06-10T07:43:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="13253" started-at="2016-06-10T07:43:11Z" finished-at="2016-06-10T07:43:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48140" started-at="2016-06-10T07:43:24Z" data-provider="dataProvider" finished-at="2016-06-10T07:44:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO14]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RRRRR]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[SA]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kiar4.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1471" started-at="2016-06-10T07:44:13Z" finished-at="2016-06-10T07:44:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="8586" started-at="2016-06-10T07:44:14Z" finished-at="2016-06-10T07:44:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="47921" started-at="2016-06-10T07:44:23Z" data-provider="dataProvider" finished-at="2016-06-10T07:45:11Z">
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="1" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
           <params>
             <param index="0">
               <value>
@@ -160,266 +306,114 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[aaa4]]>
+                <![CDATA[Anko]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Petition]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[GodHand2.jpg]]>
+                <![CDATA[Uehara]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1567" started-at="2016-06-10T07:45:11Z" finished-at="2016-06-10T07:45:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="12163" started-at="2016-06-10T07:45:12Z" finished-at="2016-06-10T07:45:24Z">
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48051" started-at="2016-06-10T07:45:24Z" data-provider="dataProvider" finished-at="2016-06-10T07:46:12Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="0" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[GTO15]]>
+                <![CDATA[GTO16]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[bbb5]]>
+                <![CDATA[Ryuji]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[PO]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Bai1.jpg]]>
+                <![CDATA[Danma]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1453" started-at="2016-06-10T07:46:12Z" finished-at="2016-06-10T07:46:14Z">
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="15272" started-at="2016-06-10T07:46:14Z" finished-at="2016-06-10T07:46:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="47947" started-at="2016-06-10T07:46:29Z" data-provider="dataProvider" finished-at="2016-06-10T07:47:17Z">
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="1" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[GTO15]]>
+                <![CDATA[GTO17]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[CCCC]]>
+                <![CDATA[Noboru]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[SA]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Bai1.jpg]]>
+                <![CDATA[Yoshikawa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1474" started-at="2016-06-10T07:47:17Z" finished-at="2016-06-10T07:47:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="7732" started-at="2016-06-10T07:47:18Z" finished-at="2016-06-10T07:47:26Z">
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="47828" started-at="2016-06-10T07:47:26Z" data-provider="dataProvider" finished-at="2016-06-10T07:48:14Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testSuccessfulAddNewCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="testSuccessfulAddNewCase" duration-ms="1" started-at="2016-06-16T08:03:18Z" data-provider="dataProvider" finished-at="2016-06-16T08:03:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[GTO15]]>
+                <![CDATA[GTO18]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[attachment1]]>
+                <![CDATA[Nanako]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[AC]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[attachment1.PNG]]>
+                <![CDATA[Mizuki]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1421" started-at="2016-06-10T07:48:14Z" finished-at="2016-06-10T07:48:15Z">
+        </test-method> <!-- testSuccessfulAddNewCase -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.test1.tests.AddNewCaseTest@71e7a66b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-06-16T08:03:18Z" finished-at="2016-06-16T08:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="9045" started-at="2016-06-10T07:48:15Z" finished-at="2016-06-10T07:48:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48172" started-at="2016-06-10T07:48:24Z" data-provider="dataProvider" finished-at="2016-06-10T07:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO15]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcd2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[BL]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Bai2.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1454" started-at="2016-06-10T07:49:13Z" finished-at="2016-06-10T07:49:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="7566" started-at="2016-06-10T07:49:14Z" finished-at="2016-06-10T07:49:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48385" started-at="2016-06-10T07:49:22Z" data-provider="dataProvider" finished-at="2016-06-10T07:50:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO15]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DDDD]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Exhibit]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[attach3.PNG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1381" started-at="2016-06-10T07:50:10Z" finished-at="2016-06-10T07:50:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="11706" started-at="2016-06-10T07:50:11Z" finished-at="2016-06-10T07:50:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48110" started-at="2016-06-10T07:50:23Z" data-provider="dataProvider" finished-at="2016-06-10T07:51:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO14]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[BBBB]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Petition]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Kiar3.jpg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1436" started-at="2016-06-10T07:51:11Z" finished-at="2016-06-10T07:51:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="beforeMethod" is-config="true" duration-ms="12103" started-at="2016-06-10T07:51:13Z" finished-at="2016-06-10T07:51:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSuccessfulDocAttachment(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="testSuccessfulDocAttachment" duration-ms="48856" started-at="2016-06-10T07:51:25Z" data-provider="dataProvider" finished-at="2016-06-10T07:52:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GTO14]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[AAAA]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[PO]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[attachment5.PNG]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSuccessfulDocAttachment -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test1.tests.AttachDocumentToCase@71e7a66b]" name="afterMethod" is-config="true" duration-ms="1445" started-at="2016-06-10T07:52:14Z" finished-at="2016-06-10T07:52:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.test1.tests.AttachDocumentToCase -->
+      </class> <!-- com.test1.tests.AddNewCaseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -26,7 +26,7 @@ public class RelatedDocumentsTab extends PageBase
 	
 	public RelatedDocumentsTab AttachDocumentToCase(String title, String attachmentname, String type) throws InterruptedException
 	{
-		
+		//To remove trailing zero .0
 //		day = day.replaceAll("([0-9])\\.0+([^0-9]|$)", "$1$2");
 //		year = year.replaceAll("([0-9])\\.0+([^0-9]|$)", "$1$2");
 		
